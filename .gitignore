@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.pytest_cache/
+
+# DVC-tracked files (use dvc pull instead)
+models/model.pkl
+data/dataset.csv
+
+# Raw data — version via DVC
+wine+quality/*.csv
